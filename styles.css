@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #proposalButton, #proposalMessage {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f5f5f5;
+  }
+  
+  #proposalButton {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  
+  #yesButton, #noButton {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #yesButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #noButton {
+    background-color: #FF5733;
+    color: white;
+  }
+  
+  #proposalMessage {
+    display: none;
+  }
+  
